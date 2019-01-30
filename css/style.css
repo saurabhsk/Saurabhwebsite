@@ -1,0 +1,54 @@
+body{
+    background: #333;
+    color:#fff;
+}
+/* .container{
+    background: pink;
+} */
+ .navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity:0.8;
+}
+.logo{
+    color:aqua;
+    font-size: 30px;
+}
+.list{
+  color: aqua;
+}
+.card-body{
+    color:black;
+}
+.col1{
+  background: white;
+}
+.form{
+  margin-top: 25px;
+}
+.sc1{
+  background: grey;
+  border: 2px solid white;
+}
+.div-sc{
+  border: 1px solid white;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    background: lightslategray;
+}
+.blockquote{
+  padding:8px;
+}
+.ch{
+  margin-top: 8px;
+  margin-left: 30%;
+}
+.qft{
+  color: black;
+  margin-left: 60%;
+}
+.imgs{
+  margin-top: 7px;
+}
+.scol{
+  margin: 3px;
+}
