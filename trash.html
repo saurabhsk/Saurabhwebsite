@@ -1,67 +1,236 @@
-<div class="container" style="margin-top:60px;">
-  <div class="row">
-    <!-- <div class="col-sm-8 m-auto"> -->
+<!DOCTYPE html>
+<html lang="en">
 
-    <!--SIMPLE SLIDER-->
-    <div id="slider1" class="carousel slide mb-5" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li class="active" data-target="#slider1" data-slide-to="0"></li>
-        <li data-target="#slider1" data-slide-to="1"></li>
-        <li data-target="#slider1" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            class="d-block img-fluid "
-            src="../img/img1.jpg"
-            alt="First Slide"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>NEWYORK</h3>
-            <p></p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+     crossorigin="anonymous" >
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <div class="container">
+      <a href="index.html" class=" navbar-brand logo">UBHOGA</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarcollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#home" class="nav-link "><i class="far fa-address-book"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#home" class="nav-link"><i class="fas fa-portrait"></i> Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#home" class="nav-link"><i class="fas fa-phone-volume"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--header home unit-->
+
+  <div class="container" style="margin-top:75px;">
+    <div class="row">
+      <!--SIMPLE SLIDER-->
+      <div id="slider1" class="carousel slide mb-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#slider1" data-slide-to="0"></li>
+          <li data-target="#slider1" data-slide-to="1"></li>
+          <li data-target="#slider1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block img-fluid " src="../img/img1.jpg" alt="First Slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>UBHOGA</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="../img/img4.jpg" alt="Second Slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>THE UNBEATABLE !!</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="../img/img5.jpg" alt="Third Slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>WE PLAY , WE RULE !!</h1>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img
-            class="d-block img-fluid"
-            src="../img/img4.jpg"
-            alt="Second Slide"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>CANADA</h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block img-fluid"
-            src="../img/img5.jpg"
-            alt="Third Slide"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h3>AUSTRALIA</h3>
-            <p></p>
+
+        <!--CONTROLS-->
+        <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span></a>
+
+        <a href="#slider1" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span></a>
+      </div>
+    </div>
+  </div>
+  <!-------------------------->
+
+
+  <!--Section 1 column 3-->
+
+  <div class="container d-sm-flex d-md-flex justify-content-around" style="background:grey; margin-top:-46px;">
+    <div class="col-sm-12 col-md-4 card scol">
+      <img class="card-img-top imgs" src="../img/pic1.jpeg" alt="image1">
+      <div class="card-body">
+        <h1 class="card-title">Acoustic</h1>
+        <p class="card-text">The backbone of music, regardless of your tastes, has always been acoustic music. Using
+          only acoustic instruments (thus, no electric anything), acoustic music is one of the purest forms of music -
+          and it has been around for a long, long time.
+        </p>
+      </div>
+      <!-- <button class="btn btn-info d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-1">Read More</button>-->
+      <div class="collapse mb-5" id="collapse-btn-1">
+        <div class="card">
+          <div class="card-body">
+            Believe it or not, many of the songs you're familiar with have likely started as awesome acoustics songs by
+            someone strumming some notes on an acoustic guitar. But, only a select number of musicians can be
+            considered acoustic artists.
+            For the sake of this list, an acoustic artist is defined as a musician who is primarily known for, or has
+            used acoustic instruments for a majority of their songs.
           </div>
         </div>
       </div>
-
-      <!--CONTROLS-->
-      <a href="#slider1" class="carousel-control-prev" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span
-      ></a>
-
-      <a href="#slider1" class="carousel-control-next" data-slide="next">
-        <span class="carousel-control-next-icon"></span
-      ></a>
     </div>
-    <!-- </div> -->
+    <div class="col-sm-12 col-md-4 card scol">
+      <img class="card-img-top imgs" src="../img/pic3.jpeg" alt="image3">
+      <div class="card-body">
+        <h1 class="card-title">Singer</h1>
+        <p class="card-text">The dictionary definition of singers states that they are people who use their voice to
+          produce musical sounds through modulation in tone and
+          pitch however a layman’s definition of a singer is worded in a slightly different manner. </p>
+      </div>
+      <button class="btn btn-info d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-1">Read More Of Them</button>
+      <div class="collapse mb-5" id="collapse-btn-1">
+        <div class="card">
+          <div class="card-body">
+            Singers are people who have always been with us through the joyous times and through the times we’d rather
+            wish we didn’t remember. They have even accompanied us when we have felt like a rebel and done our bit to
+            revolt against the rules.
+            For many, when they have failed to find the words to express their feeling or love, singers have stepped
+            forward with their songs to lend suitable words to those feelings.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4 card scol">
+      <img class="card-img-top imgs" src="../img/pic2.jpg" alt="image2">
+      <div class="card-body">
+        <h1 class="card-title">Drummer</h1>
+        <p class="card-text">A drummer is a percussionist who creates music using drums.
+
+          Most contemporary western bands that play rock, pop, jazz,
+          R&B music include a drummer for purposes including timekeeping and embellishing the musical timbre.
+        </p>
+      </div>
+      <!-- <button class="btn btn-info d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-1">Read More</button>-->
+      <div class="collapse mb-5" id="collapse-btn-1">
+        <div class="card">
+          <div class="card-body">
+            In other genres, particularly in the traditional music of many countries, drummers use individual drums of
+            various sizes and designs rather than drum kits. Some use only their hands to strike the drums.
+            In larger ensembles, the drummer may be part of a rhythm section with other percussionists playing, for
+            example,
+            vibraphone, marimba or xylophone.These musicians provide the timing and rhythmic foundation of music.
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+  <!------------------------>
 
-<!-----Section1 3 column-->
+  <!----Section 2 column 2-->
+  <div class="container d-sm-flex d-md-flex justify-content-between col1" style="margin-top:2px;">
+    <div class="sc1 col-sm-6 col-md-6 p-4 justify-content-center" style="margin:3px 0px 3px 0px;">
+      <h3 class="offset-md-3"><em>We Love Our Fans!!</em></h3>
+      <div class="form">
+        <form action="#">
+          <div class="form-8roup">
+            <label for="name">Fan? Drop a Note:</label>
+            <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="sc1 col-sm-6 col-md-6 d-flex-column p-4" style="margin:3px 0px 3px 0px;">
+      <div class="div-sc">
+        <!-- <h2>Singer Says...</h2> -->
+        <blockquote class="blockquote">
+          <p><em>Music is love, love is music, music is life, and I love my life. Thank you and good night.</em></p>
+          <footer class="blockquote-footer qft">A. J. McLean</footer>
+        </blockquote>
+      </div>
+      <div class="div-sc">
+        <!-- <h2>Drummer Says....</h2> -->
+        <blockquote class="blockquote">
+          <p><em>Everyone knows deep in their hearts that the drums are the coolest instrument, and that a band is only
+              as good as
+              its drummer. So I'm all for drum solos.</em></p>
+          <footer class="blockquote-footer qft">Fred Armisen</footer>
+        </blockquote>
+      </div>
+      <div class="div-sc">
+        <!-- <h2>Guitarist Says...</h2> -->
+        <blockquote class="blockquote">
+          <p><em>I believe every guitar player inherently has something unique about their playing.They just have to
+              identify what makes them differnt and develope it.</em></p>
+          <footer class="blockquote-footer qft">Jimmy Page</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
 
-<div class="container d-flex justify-content-around" style="background:blue;">
-  <div class="col-sm-4"><h1>Column 1</h1></div>
-  <div class="col-sm-4"><h1>Column 2</h1></div>
-  <div class="col-sm-4"><h1>Column 3</h1></div>
-</div>
+  <!----------footer-->
+   <div class="container footer" style="background-color:#2F4F4F">
+    <div class="text-center col-md-6 offset-md-3 col-sm-8">
+        <h6>Copyright &copy; 2019 All Rights Reserved With Ubhoga. </h6>
+        <h6>Designed by:<span>Saurabh Kumar</span></h6>
+        <h1>
+            <a href="#"><i class="fab fa-facebook "></i></a>
+            <a href="#"><i class="fab fa-twitter" ></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </h1>
+          <small>&copy; 2019. All rights reserved</small>
+    </div>
+   </div>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
